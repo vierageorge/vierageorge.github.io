@@ -26,8 +26,13 @@ a {
   position: relative;
 }
 .header-logo {
-  bottom: 50px;
   position: absolute;
+  height: 110px;
+  width: 110px;
+  background-color: #000;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
 }
 .header-nav {
   float: right;
