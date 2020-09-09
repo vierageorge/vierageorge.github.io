@@ -112,6 +112,15 @@ h2 ~ p {
   padding-top: 10vh;
   background-size: cover;
 }
+.full-hero:after {
+  content: "︾";
+  color: #fff;
+  bottom: 2vh;
+  font-size: 36px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0)
+}
 .hero-home {
   background-image: url('/images/shark.jpg');
   background-position: center top;
