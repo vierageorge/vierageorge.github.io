@@ -113,8 +113,11 @@ h2 ~ p {
   background-size: cover;
 }
 .full-hero:after {
-  content: "︾";
-  color: #fff;
+  border: 10px solid;
+  border-color: #fff transparent transparent;
+  content: "";
+  height: 0;
+  width: 0;
   bottom: 2vh;
   font-size: 36px;
   left: 50%;
