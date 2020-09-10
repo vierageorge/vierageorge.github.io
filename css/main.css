@@ -21,6 +21,7 @@ a {
 }
 p {
   line-height: 1.5;
+  margin: 0.75em 0;
 }
 h2 ~ p {
   font-size: 0.8em;
@@ -176,14 +177,25 @@ h2 ~ p {
   background-color: #000;
   color: #fff;
   padding: 7vh 0;
+  display: flex;
+  align-items: center;
+}
+.home-callout h3 {
+  color: inherit;
+  margin-top: 1em;
 }
 .callout-title {
   font-size: 5.75vw;
   text-align: right;
   text-transform: uppercase;
+  flex-grow: 1;
+  flex-basis: 0;
 }
 .callout-copy {
   font-size: 0.8rem;
+  flex-shrink: 0;
+  flex-basis: 45em;
+  padding: 0 3vw;
 }
 
 /* SOCIAL STYLES */
